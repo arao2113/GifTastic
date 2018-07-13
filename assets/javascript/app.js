@@ -6,7 +6,7 @@ $(document).ready(function() {
       // Variable for clicked button's value to be passed through the API
   
     var topics = ['Pennywise','Michael Myers','Leatherface','Pinhead', 'Chucky', 'Army of Darkness', 'Freddy Krueger', 'Jason Voorhees', 'Ellen Ripley', 'Aliens'];
-    var url = 'https://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&limit=20&q=';
+    var url = 'https://api.giphy.com/v1/gifs/search?api_key=UkAZMpBtaQ6XiWegdruvUJ2YIbhhpTBl&limit=20&q=';
     
   
     // Create topics from array
@@ -68,7 +68,7 @@ $(document).ready(function() {
   
       });
       // Reset URL Value after everything loads
-      url = 'https://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&limit=20&q=';
+      url = 'https://api.giphy.com/v1/gifs/search?api_key=UkAZMpBtaQ6XiWegdruvUJ2YIbhhpTBl&limit=20&q=';
     }
   
     // Form input click
